@@ -65,5 +65,11 @@ class consul (
 	source => "/tmp/consul-ui.rpm",
 	require => File["/tmp/consul-ui.rpm"],
   }
+
+  service {'consul':
+	ensure => 'running',
+	enable => 'true',
+	require => Package["consul", "consul-ui"],
+  }
 }
 
