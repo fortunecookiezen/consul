@@ -1,0 +1,15 @@
+{
+  "name": "fortunecookiezen-consul",
+  "version": "0.1.0",
+  "author": "fortunecookiezen",
+  "summary": "This modules installs consul from an internally-sourced rpm. Useful if you're behind a proxy. ONLY FOR RHEL/CENTOS 6!",
+  "license": "Apache-2.0",
+  "source": "https://github.com/fortunecookiezen/consul",
+  "project_page": "https://github.com/fortunecookiezen/consul",
+  "issues_url": "https://github.com/fortunecookiezen/consul/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
